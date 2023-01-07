@@ -1,0 +1,36 @@
+.tableBox{
+    width: 1000px;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* justify-content: ;  */
+    margin-top: 1%;
+}
+.tablestyle{
+    width: 1000px;
+    height: 350px;
+}
+thead td{
+    vertical-align: middle;
+}
+
+thead tr{
+    background-color: rgb(33, 24, 211);
+    height: 60px;
+    color: white;
+    text-align: center;
+}
+tbody tr{
+    height: 40px;
+    margin: 0%;
+    border: white;
+}
+tbody tr td{
+    font-weight: 600;
+    text-align: center;
+
+}
+td{
+    text-align: center;
+}
