@@ -37,7 +37,7 @@ const TableBox= ({data}) => {
         // console.log(fatchData.home_team.name)
         setShow(true);
       }else{
-        alert("there is no data")
+        alert("no data found")
       }
     }
     const handleClose = () => setShow(false);
@@ -141,7 +141,7 @@ const TableBox= ({data}) => {
     }
 
 
-    {data && <Pagination count={data && Math.ceil(data?.length/7)}  size="large" onChange={handleChange} page={page} variant="contained"   shape="rounded" />}
+    {data && <Pagination count={data && Math.ceil(data?.length/7)}   color="secondary" size="large" onChange={handleChange} page={page} variant="contained"   shape="rounded" />}
         </div>
     );
   }

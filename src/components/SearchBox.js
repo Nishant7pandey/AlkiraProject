@@ -5,7 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 const SearchBox = ({setInput}) => {
     return (
       <TextField
-              placeholder="Search teamname , city or division"
+              placeholder="Search by TeamName"
               sx={{
                 border: "none",
                 outline: "none",
